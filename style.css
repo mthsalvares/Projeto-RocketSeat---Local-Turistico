@@ -14,3 +14,25 @@ h4 {
   color: #333333;
   font-style: italic;
 }
+
+li {
+  color: #0C51A7;
+  font-weight: bolder;
+}
+
+.negrito {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.roxo {
+  color: #591B98;
+}
+
+.rosa {
+  color: #E5245E;
+}
+
+.laranja {
+  color: #E95E10;
+}
