@@ -4,20 +4,70 @@
   font-family: "Open Sans", sans-serif;
 }
 
+h1 { 
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
 h2 {
   font-size: 16px;
   color: #E1624F;
+  margin: 0px 0px 8px 0px;
+}
+
+h3 {
+  font-size: 32px;
+  margin: 0px;
+}
+
+img + h3 {
+  padding-left: 5px;
+  margin-top: 20px;
 }
 
 h4 {
-  font-size: 16px;
-  color: #333333;
+  font-size: 15px;
+  color: #3e3e3e;
   font-style: italic;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+p {
+  margin: 0px;
+}
+
+#descricao > p {
+ text-align: center;
+}
+
+#listaDestinos {
+  border-top: solid #D9D9D9 0.5px;
+}
+
+div > h2 {
+  padding-top: 64px;
+  margin-bottom: 2px;
+}
+
+#tituloLista {
+  margin-bottom: 64px;
+}
+
+.conteudoLista {
+  margin-bottom: 48px;
 }
 
 li {
   color: #0C51A7;
   font-weight: bolder;
+  margin-left: -20px;
+  font-size: 15px;
+}
+
+ul > li:first-child {
+  margin-top: -15px;
 }
 
 .negrito {
@@ -35,4 +85,14 @@ li {
 
 .laranja {
   color: #E95E10;
+}
+
+#divisor {
+  margin: 40px 0px;
+}
+
+footer {
+  margin-top: 65px;
+  text-align: center;
+  font-weight: bolder;
 }
